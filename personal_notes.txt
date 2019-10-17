@@ -1,182 +1,87 @@
-2    359280
-1    337829
-Name: ANREDE_KZ, dtype: int64
-
-0    539094
-1    158015
-Name: GREEN_AVANTGARDE, dtype: int64
-
-0.0    691232
-1.0      5877
-Name: SOHO_KZ, dtype: int64
-
-2.0    362039
-1.0    322819
-Name: VERS_TYP, dtype: int64
-
-W    546039
-O    151070
-Name: OST_WEST_KZ, dtype: int64
+HH_EINKOMMEN_SCORE
+CAMEO_INTL_2015_WEALTH
+ALTERSKATEGORIE_GROB
+FINANZ_VORSORGER
+ANREDE_KZ
 
 
 
 
 
-4.0    177501
-3.0    132646
-2.0    126968
-5.0     90227
-6.0     86889
-1.0     82878
-Name: CJT_GESAMTTYP, dtype: int64
-
-6    269852
-1    162047
-5     95657
-2     91435
-4     49516
-3     28602
-Name: FINANZTYP, dtype: int64
-
-12.0    109609
-10.0     91057
-8.0      75544
-11.0     67296
-5.0      64629
-4.0      55766
-9.0      48796
-3.0      48125
-1.0      45035
-7.0      36077
-2.0      31954
-6.0      23221
-Name: GFK_URLAUBERTYP, dtype: int64
-
-1.0     365725
-10.0    119455
-2.0      89282
-11.0     45668
-8.0      19418
-7.0      16163
-4.0      10371
-5.0      10295
-9.0       9783
-6.0       6905
-3.0       4044
-Name: LP_FAMILIE_FEIN, dtype: int64
-
-1.0    365725
-5.0    174906
-2.0     89282
-4.0     42486
-3.0     24710
-Name: LP_FAMILIE_GROB, dtype: int64
-
-1.0     191414
-9.0     114562
-10.0    101281
-2.0      90277
-4.0      66812
-3.0      64474
-6.0      26137
-5.0      21650
-8.0      12137
-7.0       8365
-Name: LP_STATUS_FEIN, dtype: int64
-
-1.0    281691
-2.0    152936
-4.0    126699
-5.0    101281
-3.0     34502
-Name: LP_STATUS_GROB, dtype: int64
-
-1.0    599447
-2.0     57969
-3.0     28859
-Name: NATIONALITAET_KZ, dtype: int64
-
-1.0    218638
-2.0    191679
-3.0    154370
-0.0    120171
-Name: SHOPPER_TYP, dtype: int64
-
-3    244723
-4    183483
-1    108669
-5     72199
-6     62314
-2     25721
-Name: ZABEOTYP, dtype: int64
-
-1.0    400205
-3.0    156738
-8.0    137586
-2.0      1855
-4.0       419
-6.0       305
-5.0         1
-Name: GEBAEUDETYP, dtype: int64
-
-8    121086
-9     95442
-6     94476
-4     89994
-2     72656
-3     72336
-7     69001
-5     46798
-1     32479
-Name: CAMEO_DEUG_2015, dtype: int64
-
-6B    50462
-8A    47062
-4C    41522
-2D    31058
-3C    30702
-3D    30611
-7A    30540
-8B    29634
-4A    28333
-8C    28294
-9D    25439
-9B    24831
-9C    21983
-7B    21736
-9A    18309
-2C    16902
-8D    16096
-6E    14805
-2B    13418
-5D    13163
-6C    13126
-2A    11278
-1D    10921
-1A     9603
-5B     9124
-5A     9102
-5C     8446
-7C     7979
-4B     7759
-4D     7648
-6A     5940
-3A     5564
-3B     5459
-6D     5389
-9E     4880
-6F     4754
-4E     4732
-7D     4615
-1E     4539
-7E     4131
-1C     3802
-5F     3800
-1B     3614
-5E     3163
-Name: CAMEO_DEU_2015, dtype: int64
+### 2.4. HH_EINKOMMEN_SCORE
+Estimated household net income
+- -1: unknown
+-  0: unknown
+-  1: highest income
+-  2: very high income
+-  3: high income
+-  4: average income
+-  5: lower income
+-  6: very low income
 
 
 
+### 4.3. CAMEO_INTL_2015
+German CAMEO: Wealth / Life Stage Typology, mapped to international code
+- -1: unknown
+- 11: Wealthy Households - Pre-Family Couples & Singles
+- 12: Wealthy Households - Young Couples With Children
+- 13: Wealthy Households - Families With School Age Children
+- 14: Wealthy Households - Older Families &  Mature Couples
+- 15: Wealthy Households - Elders In Retirement
+- 21: Prosperous Households - Pre-Family Couples & Singles
+- 22: Prosperous Households - Young Couples With Children
+- 23: Prosperous Households - Families With School Age Children
+- 24: Prosperous Households - Older Families & Mature Couples
+- 25: Prosperous Households - Elders In Retirement
+- 31: Comfortable Households - Pre-Family Couples & Singles
+- 32: Comfortable Households - Young Couples With Children
+- 33: Comfortable Households - Families With School Age Children
+- 34: Comfortable Households - Older Families & Mature Couples
+- 35: Comfortable Households - Elders In Retirement
+- 41: Less Affluent Households - Pre-Family Couples & Singles
+- 42: Less Affluent Households - Young Couples With Children
+- 43: Less Affluent Households - Families With School Age Children
+- 44: Less Affluent Households - Older Families & Mature Couples
+- 45: Less Affluent Households - Elders In Retirement
+- 51: Poorer Households - Pre-Family Couples & Singles
+- 52: Poorer Households - Young Couples With Children
+- 53: Poorer Households - Families With School Age Children
+- 54: Poorer Households - Older Families & Mature Couples
+- 55: Poorer Households - Elders In Retirement
+- XX: unknown
 
 
+
+### 1.2. ALTERSKATEGORIE_GROB
+Estimated age based on given name analysis
+- -1: unknown (missing)
+-  0: unknown (cannot be determined)
+-  1: < 30 years old
+-  2: 30 - 45 years old
+-  3: 46 - 60 years old
+-  4: > 60 years old
+-  9: uniformly distributed
+
+
+
+### 1.5. FINANZ_MINIMALIST, FINANZ_SPARER, FINANZ_VORSORGER, FINANZ_ANLEGER,
+###      FINANZ_UNAUFFAELLIGER, FINANZ_HAUSBAUER
+Financial typology, for each dimension:
+- -1: unknown
+-  1: very high
+-  2: high
+-  3: average
+-  4: low
+-  5: very low
+
+
+
+### 7.3. MOBI_REGIO
+Movement patterns
+- 1: very high movement
+- 2: high movement
+- 3: middle movement
+- 4: low movement
+- 5: very low movement
+- 6: none
